@@ -75,7 +75,7 @@ function mouseDragged() {
       dragPoint.compute();
     }
     if (dragPoint.flavour == 5) {
-      dragPoint.pos = [nnx- leng, nny - leng*0.866025403];
+      dragPoint.pos = [nnx- leng/2, nny - leng*0.866025403];
       dragPoint.compute();
     }
   }
