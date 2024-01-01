@@ -35,6 +35,7 @@ function draw() {
   text('Left-click and drag the shapes to make a puzzle. Right-click pieces to delete them or click the button to clear the whole board in one go.', 125,80,800);
   strokeWeight(1);
   fill(255);
+  stroke(255);
   
   for (var i = 0; i < scn.length; i++) {
     scn[i].drawShape();
